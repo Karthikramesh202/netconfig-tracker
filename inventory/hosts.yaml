@@ -1,0 +1,5 @@
+router1:
+  hostname: 172.19.2.194
+  platform: linux
+  groups:
+    - cisco_ios
