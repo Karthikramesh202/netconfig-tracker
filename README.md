@@ -17,3 +17,9 @@ netconfig-tracker/
 │   ├── hosts.yaml       # Device inventory
 │   └── groups.yaml      # Connection credentials
 └── backups/             # Saved device configurations
+
+## Testing Environment
+Tested against a Linux (WSL) SSH target during development. The code 
+includes platform detection (`task.host.platform`) to support real 
+Cisco IOS devices (`show running-config`) alongside Linux targets, 
+making it straightforward to extend to live network hardware.
