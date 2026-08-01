@@ -1,4 +1,4 @@
-cisco_ios:
+linux_devices:
   platform: linux
   username: karthik_babloo
   password: karthik202
